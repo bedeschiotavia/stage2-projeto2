@@ -31,7 +31,7 @@ a {
 }
 
 ul li a {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 ul li a:hover {
@@ -48,6 +48,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 30px;
 }
 
 h1 {
@@ -79,7 +80,6 @@ button {
   background: #69B99D;
   border: 0;
   padding: 14px 32px 15px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,11 +96,15 @@ footer {
   font-size: 14px;
   line-height: 28px;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 footer a {
   font-weight: bold;
+}
+
+footer a:hover {
+  color: #4EA788;
 }
 
 #balls {
@@ -108,4 +112,3 @@ footer a {
     bottom: 0;
     right: 0;
 }
-  
